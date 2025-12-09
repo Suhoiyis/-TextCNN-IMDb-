@@ -181,6 +181,6 @@ if __name__ == '__main__':
     # --- 保存最终的模型 ---
     MODEL_SAVE_PATH = "textcnn_model.pth"
     print(f"\n======== Saving final model to {MODEL_SAVE_PATH} ========")
-    # 只保存模型学习到的参数（state_dict），这是推荐的方式
+    # 只保存模型学习到的参数（state_dict）
     torch.save(model.state_dict(), MODEL_SAVE_PATH)
     print("======== Model saved successfully. ========")

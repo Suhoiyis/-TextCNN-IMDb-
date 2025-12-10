@@ -1,7 +1,5 @@
 ## 基于 TextCNN 模型的 IMDb 电影评论情感分类复现
 
-###### 2023090909008  代子祥
-
 - 模型：TextCNN (Text Convolutional Neural Network)
 - 环境： Ubuntu 24.04.3 LTS，GPU (AMD Radeon RX 7900 GRE)
 - 在linux系统下使用 PyTorch 的 ROCm 版本 进行训练
